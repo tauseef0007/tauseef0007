@@ -1,36 +1,62 @@
-# ──────────────────────────────────────────────────────────────
-# GitHub Actions: Auto-Update README Activity
+# ══════════════════════════════════════════════════════════════
+# GitHub Actions: README Auto-Updater
 # Repo: tauseef0007/tauseef0007
-# ──────────────────────────────────────────────────────────────
+# Updates: Activity Section + Contribution Snake
+# ══════════════════════════════════════════════════════════════
 
-name: 🔄 Update README Activity
+name: 🐍 Update README — Activity + Snake
 
 on:
   schedule:
-    - cron: '*/30 * * * *'   # Har 30 minute mein auto-run
-  workflow_dispatch:           # GitHub UI se manually bhi trigger kar sako
+    - cron: '*/30 * * * *'    # har 30 min auto-run
+  workflow_dispatch:            # manually trigger karo GitHub UI se
   push:
-    branches:
-      - main                   # Main branch pe push hone pe bhi run ho
+    branches: [main]
 
 jobs:
-  update-readme:
-    name: Update GitHub Activity in README
+
+  # ─── JOB 1: Update Recent Activity Section ────────────────
+  update-activity:
+    name: ⚡ Update Recent Activity
     runs-on: ubuntu-latest
-    
     permissions:
-      contents: write          # README commit karne ke liye write permission
+      contents: write
 
     steps:
-      # Step 1: Repo checkout karo
-      - name: 📥 Checkout Repository
+      - name: 📥 Checkout
         uses: actions/checkout@v4
 
-      # Step 2: Recent Activity fetch karke README update karo
-      - name: ⚡ Update GitHub Activity Section
+      - name: ⚡ Inject GitHub Activity into README
         uses: jamesgeorge007/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          COMMIT_MSG: '⚡ Auto-update: Recent GitHub Activity [skip ci]'
-          MAX_LINES: 10         # Kitni activities dikhani hain
+          COMMIT_MSG: '🤖 [bot] Auto-update: Recent Activity [skip ci]'
+          MAX_LINES: 10
+
+  # ─── JOB 2: Generate Contribution Snake ───────────────────
+  generate-snake:
+    name: 🐍 Generate Contribution Snake
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: 📥 Checkout
+        uses: actions/checkout@v4
+
+      - name: 🐍 Generate Snake Animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: tauseef0007
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: 🚀 Push Snake to output branch
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
