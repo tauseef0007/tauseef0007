@@ -1,1 +1,36 @@
+# ──────────────────────────────────────────────────────────────
+# GitHub Actions: Auto-Update README Activity
+# Repo: tauseef0007/tauseef0007
+# ──────────────────────────────────────────────────────────────
 
+name: 🔄 Update README Activity
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'   # Har 30 minute mein auto-run
+  workflow_dispatch:           # GitHub UI se manually bhi trigger kar sako
+  push:
+    branches:
+      - main                   # Main branch pe push hone pe bhi run ho
+
+jobs:
+  update-readme:
+    name: Update GitHub Activity in README
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write          # README commit karne ke liye write permission
+
+    steps:
+      # Step 1: Repo checkout karo
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      # Step 2: Recent Activity fetch karke README update karo
+      - name: ⚡ Update GitHub Activity Section
+        uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          COMMIT_MSG: '⚡ Auto-update: Recent GitHub Activity [skip ci]'
+          MAX_LINES: 10         # Kitni activities dikhani hain
