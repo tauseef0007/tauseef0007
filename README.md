@@ -1,21 +1,10 @@
 <div align="center">
 
-<!-- ANIMATED HEADER BANNER -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=cylinder&color=0:0d1117,50:0d2137,100:0d1117&height=180&section=header&text=Tauseef%20Khan&fontSize=60&fontColor=58a6ff&animation=fadeIn&fontAlignY=55&desc=DevSecOps%20Engineer%20%E2%80%94%20Cloud%20%7C%20IaC%20%7C%20Automation&descAlignY=80&descSize=16&descColor=8b949e"/>
-
-</div>
-
-<!-- TYPING ANIMATION -->
-<div align="center">
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Infrastructure+as+Code+%F0%9F%8F%97%EF%B8%8F;Terraform+%7C+Kubernetes+%7C+Docker;CI%2FCD+Pipelines+%7C+GitHub+Actions;Securing+%26+Automating+Cloud+Infra;%22If+it%27s+not+automated%2C+it%27s+broken%22+%F0%9F%94%A5)](https://github.com/tauseef0007)
 
-</div>
-
 <br/>
-
-<!-- PROFILE BADGES ROW -->
-<div align="center">
 
 ![Profile Views](https://komarev.com/ghpvc/?username=tauseef0007&style=flat-square&color=58a6ff&label=Profile+Views&labelColor=0d1117)
 &ensp;
@@ -33,26 +22,74 @@
 
 ## 👨‍💻 &nbsp;About Me
 
-<img align="right" width="340" src="https://raw.githubusercontent.com/gist/patevs/b007a0e98fb216438d4cbf559fac4166/raw/88f20c9d749d756be63f22b09f3c4ac570bc5101/programming.gif"/>
+<br/>
 
-```yaml
-name     : Tauseef Khan
-role     : DevSecOps Engineer
-location : India 🇮🇳
+<table>
+<tr>
+<td width="55%" valign="top">
 
-focus:
-  - Infrastructure as Code (Terraform / Ansible)
-  - Container Orchestration (Kubernetes / Docker)
-  - Cloud Platforms (AWS / Azure / GCP)
-  - CI/CD Automation (GitHub Actions / Jenkins)
-  - Security (DevSecOps / Vault / Trivy)
+### 🧑 Identity
 
-currently_building : Cloud-Native IaC Pipelines
-learning           : GitOps · ArgoCD · Helm · eBPF
-open_to            : Collaborations & Opportunities
+| | |
+|---|---|
+| 👤 **Name** | Tauseef Khan |
+| 💼 **Role** | DevSecOps Engineer |
+| 📍 **Location** | India 🇮🇳 |
+| 📬 **Status** | ![Open to Work](https://img.shields.io/badge/Open%20to%20Work-238636?style=flat-square&logo=checkmarx&logoColor=white) |
+
+<br/>
+
+### 🎯 What I Do
+
+> 🏗️ **Infrastructure as Code** &nbsp;—&nbsp; Terraform · Ansible
+>
+> 🐳 **Container Orchestration** &nbsp;—&nbsp; Kubernetes · Docker
+>
+> ☁️ **Cloud Platforms** &nbsp;—&nbsp; AWS · Azure · GCP
+>
+> ⚙️ **CI/CD Automation** &nbsp;—&nbsp; GitHub Actions · Jenkins
+>
+> 🛡️ **Security** &nbsp;—&nbsp; DevSecOps · Vault · Trivy
+
+<br/>
+
+### 🚀 Currently
+
+| | |
+|---|---|
+| 🔨 **Building** | Cloud-Native IaC Pipelines |
+| 📚 **Learning** | GitOps · ArgoCD · Helm · eBPF |
+| 🤝 **Open To** | Collaborations & Opportunities |
+
+</td>
+<td width="45%" align="center" valign="middle">
+
+<img src="https://raw.githubusercontent.com/gist/patevs/b007a0e98fb216438d4cbf559fac4166/raw/88f20c9d749d756be63f22b09f3c4ac570bc5101/programming.gif" width="300" alt="coding gif"/>
+
+<br/><br/>
+
+```
+$ uptime
+────────────────────
+⏱  Always Automating
+⚡  Always Securing
+☁️  Always Building
 ```
 
-<br clear="right"/>
+<br/>
+
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/K8s-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GH_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+
+</td>
+</tr>
+</table>
+
+<br/>
 
 ---
 
@@ -62,24 +99,23 @@ open_to            : Collaborations & Opportunities
 <tr>
 <td valign="top" width="50%">
 
-**Cloud & Infrastructure**
-<br/>
+**☁️ Cloud & Infrastructure**
 
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-<br/><br/>
 
-**Infrastructure as Code**
 <br/>
+
+**🏗️ Infrastructure as Code**
 
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
 ![Packer](https://img.shields.io/badge/Packer-02A8EF?style=flat-square&logo=packer&logoColor=white)
-<br/><br/>
 
-**Containers & Orchestration**
 <br/>
+
+**🐳 Containers & Orchestration**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
@@ -88,24 +124,23 @@ open_to            : Collaborations & Opportunities
 </td>
 <td valign="top" width="50%">
 
-**CI/CD Pipelines**
-<br/>
+**⚙️ CI/CD Pipelines**
 
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 ![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
-<br/><br/>
 
-**Monitoring & Observability**
 <br/>
+
+**📊 Monitoring & Observability**
 
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![ELK](https://img.shields.io/badge/ELK_Stack-005571?style=flat-square&logo=elastic&logoColor=white)
-<br/><br/>
 
-**Security & Scripting**
 <br/>
+
+**🛡️ Security & Scripting**
 
 ![Vault](https://img.shields.io/badge/Vault-FFEC6E?style=flat-square&logo=vault&logoColor=black)
 ![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=aquasecurity&logoColor=white)
@@ -185,7 +220,8 @@ open_to            : Collaborations & Opportunities
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tauseef-khan-051132364/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]
+(https://www.linkedin.com/in/tauseef-khan-051132364/)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/tauseef0007)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tauseef0007)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@gmail.com)
